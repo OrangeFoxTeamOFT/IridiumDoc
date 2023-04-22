@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*
+{
+    margin : 0px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#navigation
+{
+    display: flex;
+    justify-content: right;
+}
+
+#logo
+{
+    width: 64px;
+    height: 64px;
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+#top
+{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    background:  linear-gradient(0deg, rgb(138, 138, 138) 0%, rgb(59, 59, 59) 74%);
+    box-shadow: 0 10px 20px black;
+    
+}
+
+#button
+{
+    color: #ffffff;
+    text-shadow: 0 0 20px #ffffff;
+    margin: 4px;
+    padding: 10px;
+    padding-top : 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+#button:hover
+{
+    color: #909090;
+    text-shadow: 0 0 20px #909090;
+}
+
+#banner
+{
+    margin-top : 30px;
+    width : 90%;
+    border-radius: 20px;
+    border : 5px solid #5d5d5d;
+    box-shadow: 10px 10px 20px black;
+}
+
+#cards
+{
+    margin-top : 30px;
+
+    text-align: center;
+}
+
+#card
+{
+    margin-top : 40px;
+    background-color: #c4c4c4;
+    border-radius: 20px;
+    width: 90%;
+    height: 90%;
+    border : 5px solid #5d5d5d;
+    box-shadow: 10px 10px 20px black;
+    padding-bottom : 20px;
+}
+
+#card #b
+{
+    background-color: #5d5d5d;
+}
+
+#card-title
+{
+    padding : 10px;
+    text-shadow: 0 0 20px black;
+}
+
+#card-p
+{
+    text-shadow: 0 0 20px black;
+}
+
+#footer #fox
+{
+    display: block;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+#footer
+{
+    box-shadow: 0 -10px 20px black;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 0 0 20px black;
+    background-color: #5d5d5d;
+}
+
+#footer #heart
+{
+    padding-top : 10px;
+    padding-bottom : 10px;
+}
+
+#studioname
+{
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+
+#copyright
+{
+    text-align: center;
+    text-shadow: 0 0 20px black;
+}
+
+#version
+{
+    text-align: right;
+    text-shadow: 0 0 20px black;
+}
