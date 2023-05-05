@@ -1,0 +1,73 @@
+* { margin: 0px;
+    font-family: fantasy;
+}
+
+body {background-color: lightgray;}
+
+#top { height: 196px;
+    width : 361px;
+    border-radius: 20px;
+
+    background: linear-gradient( black, lightgray);
+    box-shadow: 10px 10px 20px black;
+}
+
+#siteTitle { text-align: center;
+    color: white;
+}
+
+#banner { width: 361px;
+    height: 128px;
+    margin-top: 32px;
+    border: 5px solid #3b3b3b;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black;
+}
+
+#footer { margin-top: 64px;
+    
+    background-color: gray;
+    text-align: center;
+    text-shadow: 0 0 20px;
+    box-shadow: 0 -10px 20px black;
+}
+
+#version {text-align: right;}
+
+#studioname {text-size: 25px;
+    padding-bottom: 10px;
+}
+
+#footerText{padding-top: 10px;}
+
+.card { border-radius: 20px;
+    margin-top: 32px;
+    padding-bottom: 16px;
+    width: 361px;
+
+    text-align: center;
+    background-color: lightgray;
+    border: 4px solid #3b3b3b;
+    box-shadow: 10px 10px 20px black;
+}
+
+.cardTitle { text-shadow: 0 0 20px black;
+    padding: 8px;
+}
+
+.cardText {text-shadow: 0 0 20px black;}
+
+.cardCaps { background-color: darkgray;
+    text-shadow: 0 0 20px black;
+    font-family: Sans-Serif;
+}
+.button { display: flex;
+    justify-content: center;
+    
+    font-size: 16px;
+    text-decoration: none;
+    text-shadow: 0 0 20px black;
+    color: white;
+}
+
+.button:hover {text-decoration: none;}
